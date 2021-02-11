@@ -1,10 +1,100 @@
 #top {
-	width: 100%; 
-	height: 3em; 
-	background-color: red;
-	align-items: center;
-	display: flex;
-	justify-content: center;
-	font-family: Arial, sans-serif;
-	font-size: 30px;
+	margin-left:30%;
+	width: 40%; 
+	height: 46em; 
+	background-color: #f7f7f7;
+	position: relative;
 }
+#picture {
+	position: absolute;
+	width: 40%; 
+	height: 15em;
+	background-color: black;
+	border-color:black;
+	border-width:5px;
+}
+
+#picture img {
+	width: 100%;
+}
+
+#contacts {
+	margin-top:15em;
+	position: absolute;
+	background-color:lightblue;
+	width: 40%; 
+	height:31em;
+}
+
+#about p {
+	text-align: justify;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#about {
+	position: absolute;
+	margin-left:40%;
+	width: 60%; 
+	background-color:white;	
+	height:46em;
+}
+
+h1 {
+	text-align:center;
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight:normal;
+	font-size:25px;
+	text-transform:uppercase;
+	color:black;
+	text-align:center;
+	letter-spacing: -2px;
+}
+
+h2 {
+	text-align:center;
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight:normal;
+	font-size:12.5px;
+	text-transform:uppercase;
+	color:black;
+	text-align:center;
+	letter-spacing: -0.5px;
+	margin-top:-5%;
+}
+
+#socialmedia {
+	background-color:#e2e2e2;
+	height:2em;
+	width:90%;
+	margin-left:5%;
+	margin-bottom:10%;
+	border-radius:5px;
+}
+
+.p1 {
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	color:black;
+	padding-top:4%;
+	padding-left:15%;
+}
+
+.p2 {
+	font-family: 'Do Hyeon', sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	color:black;
+	padding-top:4%;
+	padding-left:15%;
+}
+
+#socialmedia img {
+	width: 10%;
+	margin-left:2.5%;
+	margin-top:2.5%;
+	float:left;
+}
+
+

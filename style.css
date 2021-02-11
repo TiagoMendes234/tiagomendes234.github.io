@@ -49,6 +49,7 @@ h1 {
 	color:black;
 	text-align:center;
 	letter-spacing: -2px;
+	
 }
 
 h2 {
@@ -79,6 +80,8 @@ h2 {
 	color:black;
 	padding-top:4%;
 	padding-left:15%;
+	text-align: justify;
+	margin-right:5%;
 }
 
 .p2 {
@@ -88,6 +91,8 @@ h2 {
 	color:black;
 	padding-top:4%;
 	padding-left:15%;
+	text-align: justify;
+	margin-right:5%;
 }
 
 #socialmedia img {

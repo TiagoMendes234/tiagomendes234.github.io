@@ -7,13 +7,10 @@
 #picture {
 	position: absolute;
 	width: 40%; 
-	height: 15.7vw;
+	height: 15.65vw;
 	background-color: black;
 	border-color:black;
 	border-width:5px;
-	display: flex;
-    flex-direction: column;
-    justify-content: center; 
 }
 
 #picture img {
@@ -22,7 +19,7 @@
 }
 
 #contacts {
-	margin-top:15vw;
+	margin-top:15.65vw;
 	position: absolute;
 	background-color:lightblue;
 	width: 40%; 

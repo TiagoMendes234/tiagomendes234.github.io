@@ -1,8 +1,8 @@
 #top {
 	margin-left:30%;
 	width: 40%; 
-	height: 46em; 
 	position: relative;
+	max-height:20vw;
 }
 #picture {
 	position: absolute;
@@ -15,7 +15,6 @@
 
 #picture img {
 	width: 100%;
-	max-width: 100%;
 }
 
 #contacts {

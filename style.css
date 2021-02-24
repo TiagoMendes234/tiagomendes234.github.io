@@ -10,6 +10,7 @@
 	background-color: black;
 	border-color:black;
 	border-width:5px;
+
 }
 
 #picture img {
@@ -20,8 +21,9 @@
 	margin-top:15.65vw;
 	position: absolute;
 	background-color:#56CBF9;
-	width: 40%; 
-	height:20vw;
+	width: 40%;
+	min-height: 100px;
+	overflow: hidden;
 }
 
 #about p {

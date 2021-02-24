@@ -109,4 +109,13 @@ h2 {
 	float:left;
 }
 
+#socialmedia:hover{
+	background-color:red;
+	cursor: pointer;	
+}
+
+a {
+	text-decoration: none;
+}
+
 

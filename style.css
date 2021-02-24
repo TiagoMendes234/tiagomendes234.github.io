@@ -3,12 +3,11 @@ body {
 }
 
 #top {
-	margin-left:30%;
 	width: 40%; 
-	position: fixed;
+	position: absolute;
 	top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+	left: 50%;
+    transform: translate(-50%,-50%);
 }
 #picture {
 	position: absolute;

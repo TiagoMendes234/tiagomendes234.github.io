@@ -80,7 +80,8 @@ h2 {
 	font-weight:bold;
 	font-size:1vw;
 	color:black;
-
+	padding-top:3.5%;
+	padding-left:15%;
 	text-align: justify;
 	-webkit-text-size-adjust: none;
 	margin-top: auto;

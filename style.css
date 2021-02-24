@@ -1,7 +1,14 @@
+body {
+	background-color: lightblue;
+}
+
 #top {
 	margin-left:30%;
 	width: 40%; 
-	position: relative;
+	position: fixed;
+	top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 #picture {
 	position: absolute;
@@ -22,7 +29,6 @@
 	position: absolute;
 	background-color:#56CBF9;
 	width: 40%;
-	min-height: 100px;
 	overflow: hidden;
 }
 
@@ -38,7 +44,7 @@
 	margin-left:40%;
 	width: 60%; 
 	background-color:white;	
-	height:46em;
+	overflow: hidden;
 }
 
 h1 {

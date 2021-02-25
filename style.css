@@ -52,7 +52,7 @@ h1 {
 	text-transform:uppercase;
 	color:black;
 	text-align:center;
-	letter-spacing: -2px;
+	letter-spacing: -0.1em;
 	-webkit-text-size-adjust: none;
 	
 }

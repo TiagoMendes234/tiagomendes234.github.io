@@ -96,8 +96,8 @@ h2 {
 	font-weight:bold;
 	font-size:1vw;
 	color:black;
-	padding-top:3.5%;
-	padding-left:15%;
+	padding-top:0.5em;
+	padding-left:2em;
 	text-align: justify;
 	-webkit-text-size-adjust: none;
 	margin-top: auto;
@@ -109,8 +109,8 @@ h2 {
 	font-weight:bold;
 	font-size:0.8vw;
 	color:black;
-	padding-top:3.5%;
-	padding-left:15%;
+	padding-top:0.7em;
+	padding-left:2.5em;
 	text-align: justify;
 	-webkit-text-size-adjust: none;
     margin-top: auto;

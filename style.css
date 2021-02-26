@@ -95,10 +95,7 @@ h2 {
 	color:black;
 	padding-top:0.5em;
 	padding-left:2em;
-	text-align: justify;
-	-webkit-text-size-adjust: none;
-	margin-top: auto;
-    margin-bottom: auto;
+
 }
 
 .p2 {
@@ -108,10 +105,6 @@ h2 {
 	color:black;
 	padding-top:0.7em;
 	padding-left:2.5em;
-	text-align: justify;
-	-webkit-text-size-adjust: none;
-    margin-top: auto;
-    margin-bottom: auto;
 
 }
 

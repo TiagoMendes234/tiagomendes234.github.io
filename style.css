@@ -1,17 +1,20 @@
 
 #top {
-	width: 40%; 
 	position: absolute;
-	left: 30%;
+	left: 1%;
 }
-#picture {
+
+.side-bar{
 	position: absolute;
-	width: 40%; 
-	height: 15.65vw;
+	width:40%;
+}
+
+#picture {
 	background-color: black;
 	border-color:black;
 	border-width:5px;
-
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
 #picture img {
@@ -21,9 +24,11 @@
 #contacts {
 	margin-top:15.65vw;
 	position: absolute;
-	background-color:#56CBF9;
+	background: linear-gradient(45deg, #7699d5, #bbc9e1,white);
 	width: 40%;
 	overflow: hidden;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 #about p {
@@ -36,8 +41,10 @@
 
 #about {
 	margin-left:40%;
-	width: 60%; 
-	background-color:white;	
+	width: 99%; 
+	background-color:red;	
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 	overflow: hidden;
 }
 
@@ -54,11 +61,10 @@ h1 {
 	
 }
 
-h2 {
+h3 {
 	text-align:center;
 	font-family: 'Do Hyeon', sans-serif;
 	font-weight:normal;
-	font-size:1vw;
 	text-transform:uppercase;
 	color:black;
 	text-align:center;
@@ -74,6 +80,7 @@ h2 {
 	margin-left:5%;
 	margin-bottom:10%;
 	border-radius:5px;
+	display: flex;
 }
 
 #socialmedia img {
@@ -84,8 +91,9 @@ h2 {
 }
 
 #socialmedia:hover{
-	background-color:lightblue;
-	cursor: pointer;	
+	background-color:#dfeafd;
+	cursor: pointer;
+	transition: 1s;
 }
 
 .p1 {
@@ -93,9 +101,13 @@ h2 {
 	font-weight:bold;
 	font-size:1vw;
 	color:black;
-	padding-top:0.5em;
-	padding-left:2em;
+	padding-top:0.4em;
+	padding-left:0.5em;
 
+}
+
+.text {
+	display: inline!important;
 }
 
 .p2 {
@@ -103,13 +115,14 @@ h2 {
 	font-weight:bold;
 	font-size:0.8vw;
 	color:black;
-	padding-top:0.7em;
-	padding-left:2.5em;
+	padding-top:0.5em;
+	padding-left:0.5em;
 
 }
 
 a {
 	text-decoration: none;
+	color:transparent!important;
 }
 
 

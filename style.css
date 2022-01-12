@@ -31,7 +31,7 @@
 
 #about p {
 	text-align: justify;
-	margin-left:5%;
+	margin-left:15%;
 	margin-right:5%;
 	font-size:1vw;
 	-webkit-text-size-adjust: none;
@@ -39,30 +39,35 @@
 
 #about {
 	margin-left:17%;
-	background: linear-gradient(45deg,#f2f2f2,white);
+	background: white;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	height:100vw;
 }
 
 #article {
-	background-color: red;
+	background: #fcfcfc;
 	padding-top:2.5%;
 	margin-bottom: 2.5%;
+	border-radius: 5px;
 }
 
 #article-image {
 	float: left;
+	position: absolute;
+	width:auto;
+	height: auto;
 }
 
 #article-image img {
 	margin-left:15px;
 	border-radius:5px;
+	object-fit: cover;
 }
 
 #article-text {
 	font-weight: bold;
-	margin-left:0;
+	margin-left:30%;
 }
 
 h1 {
@@ -72,10 +77,20 @@ h1 {
 	font-size:1.5vw;
 	text-transform:uppercase;
 	color:black;
-	text-align:center;
 	letter-spacing: -0.1em;
 	-webkit-text-size-adjust: none;
 	
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:normal;
+	font-size:1.5vw;
+	text-transform:uppercase;
+	color:black;
+	letter-spacing: -0.1em;
+	-webkit-text-size-adjust: none;
+	margin-left: 15%;
 }
 
 h3 {
